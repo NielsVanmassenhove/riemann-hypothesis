@@ -41,6 +41,7 @@ end Hopf
 
 section Coef
 open TensorProduct TrivSqZeroExt
+attribute [-instance] GlobalTheory.AdmLoc.modFun
 
 variable {k : Type} [Field k] {r : ℕ} {B : Type} [CommRing B] [Algebra k B]
 
